@@ -1,20 +1,28 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import { getStoryPageData } from '@/services/cms';
+import { getStoryPageData, getSiteConfig } from '@/services/cms';
 import { SpotlightCard } from '@/components/react-bits/SpotlightCard';
 
-export const metadata: Metadata = {
-  title: 'Kisah Kami | bo.s_kitchen Artisan Bakery',
-  description: 'Perjalanan, filosofi bahan mentega AOP Prancis, dan dedikasi di balik dapur atelier bo.s_kitchen.',
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const [story, site] = await Promise.all([getStoryPageData(), getSiteConfig()]);
+
+  return {
+    title: `${story.hero.title} | ${site.brandName} Artisan Bakery`,
+    description: story.hero.subtitle,
+    openGraph: {
+      title: `${story.hero.title} | ${site.brandName}`,
+      description: story.hero.subtitle,
+      type: 'website',
+    },
+  };
+}
 
 export default async function StoryPage() {
   const story = await getStoryPageData();
 
   return (
     <div className="max-w-[1280px] mx-auto px-4 md:px-6 pt-6 md:pt-10 pb-20 space-y-16">
-      {/* 1. Header Section */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
         <div className="lg:col-span-6 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-[#914714]">Filosofi Dapur Kami</span>
@@ -36,7 +44,6 @@ export default async function StoryPage() {
         </div>
       </div>
 
-      {/* 2. Three Pillars / Values */}
       <div className="space-y-6">
         <div className="text-center max-w-xl mx-auto space-y-2">
           <span className="text-xs font-bold uppercase tracking-widest text-[#914714]">Prinsip Fundamental</span>
@@ -54,7 +61,6 @@ export default async function StoryPage() {
         </div>
       </div>
 
-      {/* 3. Milestones Timeline */}
       <div className="space-y-6">
         <div className="text-center max-w-xl mx-auto space-y-2">
           <span className="text-xs font-bold uppercase tracking-widest text-[#914714]">Perjalanan Kami</span>
@@ -79,7 +85,6 @@ export default async function StoryPage() {
         </div>
       </div>
 
-      {/* 4. Kitchen Atmosphere Gallery */}
       <div className="space-y-6">
         <div className="text-center max-w-xl mx-auto space-y-2">
           <span className="text-xs font-bold uppercase tracking-widest text-[#914714]">Suasana Studio</span>

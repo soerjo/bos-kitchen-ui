@@ -3,11 +3,19 @@ import type { Metadata } from 'next';
 import { getContactPageData, getSiteConfig } from '@/services/cms';
 import { ContactClient } from './ContactClient';
 
-export const metadata: Metadata = {
-  title: 'Kontak & Lokasi Atelier | bo.s_kitchen Artisan Bakery',
-  description:
-    'Lokasi bakeshop Senopati Jakarta Selatan, pemesanan custom cake via WhatsApp, dan pertanyaan seputar pengiriman.',
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const [contact, site] = await Promise.all([getContactPageData(), getSiteConfig()]);
+
+  return {
+    title: `${contact.hero.title} | ${site.brandName} Artisan Bakery`,
+    description: contact.hero.subtitle,
+    openGraph: {
+      title: `${contact.hero.title} | ${site.brandName}`,
+      description: contact.hero.subtitle,
+      type: 'website',
+    },
+  };
+}
 
 export default async function ContactPage() {
   const [contact, site] = await Promise.all([getContactPageData(), getSiteConfig()]);
