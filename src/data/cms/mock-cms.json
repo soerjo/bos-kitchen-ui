@@ -1,0 +1,490 @@
+{
+  "site": {
+    "brandName": "bo.s_kitchen",
+    "tagline": "Artisan Bakery & Pastry Boutique",
+    "foundedYear": "2019",
+    "contact": {
+      "whatsapp": "6281289001234",
+      "whatsappDisplay": "+62 812-8900-1234",
+      "instagram": "@bo.s_kitchen",
+      "address": "Jl. Senopati No. 42, Kebayoran Baru, Jakarta Selatan, 12190",
+      "gmapsUrl": "https://maps.google.com/?q=Senopati+Jakarta+Selatan",
+      "email": "atelier@boskitchen.id"
+    },
+    "hours": [
+      {
+        "day": "Selasa \u2013 Jumat",
+        "time": "07.30 \u2013 19.00"
+      },
+      {
+        "day": "Sabtu \u2013 Minggu",
+        "time": "07.00 \u2013 20.00"
+      },
+      {
+        "day": "Senin",
+        "time": "Tutup (Baking Prep)",
+        "closed": true
+      }
+    ],
+    "deliveryAreas": [
+      "Jakarta Selatan",
+      "Jakarta Pusat",
+      "Jakarta Barat",
+      "Tangerang Selatan",
+      "Depok"
+    ]
+  },
+  "home": {
+    "hero": {
+      "badge": "Fresh Daily \u2022 Batch Pagi Hangat",
+      "title": "Cita Rasa Artisan, Dipanggang dengan Kehangatan Hati",
+      "description": "Dipanggang dalam kuota terbatas setiap fajar. Kami hanya menggunakan 100% French AOP Normandy Butter, rempah alami nusantara, dan ketelitian patisserie klasik tanpa bahan aditif buatan.",
+      "stats": [
+        {
+          "target": 10000,
+          "suffix": "+",
+          "label": "Kue Terkirim",
+          "format": "locale"
+        },
+        {
+          "target": 100,
+          "suffix": "%",
+          "label": "French Butter",
+          "format": "integer"
+        },
+        {
+          "target": 4.9,
+          "suffix": "/5.0",
+          "label": "Rating Pelanggan",
+          "format": "decimal"
+        }
+      ],
+      "ctaPrimary": {
+        "text": "Jelajahi Menu Hari Ini",
+        "href": "/menu"
+      },
+      "ctaSecondary": {
+        "text": "Pesan Cepat via WhatsApp",
+        "href": "https://wa.me/6281289001234?text=Halo%20bo.s_kitchen,%20saya%20ingin%20memesan%20kue%20hari%20ini"
+      },
+      "heroImage": "/images/stitch/stitch_img_5.jpg",
+      "floatingHighlight": {
+        "title": "Truffle Brioche & Wild Berry Chiffon",
+        "badge": "Fresh Daily",
+        "image": "/images/stitch/stitch_img_2.jpg"
+      }
+    },
+    "features": [
+      {
+        "icon": "bakery_dining",
+        "title": "100% French Butter",
+        "description": "Elle & Vire dan butter AOP Normandie grade tertinggi untuk kelembutan ekstra."
+      },
+      {
+        "icon": "eco",
+        "title": "Tanpa Pengawet",
+        "description": "Murni bahan alami, zero artificial emulsifier, pemanis jagung berkualitas."
+      },
+      {
+        "icon": "schedule",
+        "title": "Fresh on Delivery Day",
+        "description": "Kue keluar dari oven hanya beberapa jam sebelum tiba di tangan Anda."
+      },
+      {
+        "icon": "local_shipping",
+        "title": "Instant & Same Day",
+        "description": "Proteksi chiller box aman untuk pengiriman ke seluruh area Jadetabek."
+      }
+    ],
+    "categories": [
+      {
+        "name": "Artisan Chiffon",
+        "slug": "chiffon",
+        "count": "4 Kreasi",
+        "image": "/images/stitch/stitch_img_5.jpg"
+      },
+      {
+        "name": "Burnt Cheesecake",
+        "slug": "cheesecake",
+        "count": "3 Varian",
+        "image": "/images/stitch/stitch_img_12.jpg"
+      },
+      {
+        "name": "Fudgy Brownies",
+        "slug": "brownies",
+        "count": "3 Kreasi",
+        "image": "/images/stitch/stitch_img_3.jpg"
+      },
+      {
+        "name": "Viennoiserie & Breads",
+        "slug": "viennoiserie",
+        "count": "5 Pilihan",
+        "image": "/images/stitch/stitch_img_4.jpg"
+      }
+    ],
+    "featuredProducts": [
+      {
+        "id": "pandan-kaya-chiffon",
+        "name": "Pandan Kaya Ogura Chiffon",
+        "slug": "pandan-kaya-chiffon",
+        "category": "chiffon",
+        "price": 185000,
+        "image": "/images/stitch/stitch_img_5.jpg",
+        "badge": "Best Seller",
+        "rating": 4.9,
+        "reviewsCount": 342,
+        "tags": [
+          "Diameter 20cm",
+          "100% Jus Suji Murni"
+        ],
+        "description": "Tekstur selembut sutra dengan perasan daun pandan alami, santan segar perasan pertama, dan selai srikaya buatan atelier."
+      },
+      {
+        "id": "lotus-biscoff-cheesecake",
+        "name": "Lotus Biscoff Burnt Cheesecake",
+        "slug": "lotus-biscoff-cheesecake",
+        "category": "cheesecake",
+        "price": 245000,
+        "image": "/images/stitch/stitch_img_12.jpg",
+        "badge": "Signature",
+        "rating": 4.9,
+        "reviewsCount": 288,
+        "tags": [
+          "Diameter 16cm",
+          "Cream Cheese Belgia"
+        ],
+        "description": "Paduan lembut cream cheese kualitas tinggi berpadu dengan gurih renyah karamel biskuit Lotus Biscoff."
+      },
+      {
+        "id": "triple-chocolate-brownie",
+        "name": "Triple Chocolate Fudgy Brownie",
+        "slug": "triple-chocolate-brownie",
+        "category": "brownies",
+        "price": 120000,
+        "image": "/images/stitch/stitch_img_3.jpg",
+        "badge": "Favorite",
+        "rating": 4.8,
+        "reviewsCount": 195,
+        "tags": [
+          "Ukuran 20x20cm",
+          "Pure Callebaut 70%"
+        ],
+        "description": "Shiny crust tipis renyah dengan isi cokelat pekat lumer beraroma hazelnut butter yang manis seimbang."
+      },
+      {
+        "id": "almond-frangipane-croissant",
+        "name": "Almond Frangipane Croissant",
+        "slug": "almond-frangipane-croissant",
+        "category": "viennoiserie",
+        "price": 128000,
+        "image": "/images/stitch/stitch_img_4.jpg",
+        "badge": "Fresh Daily",
+        "rating": 4.9,
+        "reviewsCount": 264,
+        "tags": [
+          "Box Isi 4 Pcs",
+          "Double Baked"
+        ],
+        "description": "Laminasi mentega Normandie, isi krim almond frangipane madu murni, dan taburan roasted almond renyah."
+      }
+    ],
+    "founderStory": {
+      "badge": "Kisah di Balik Dapur Kami",
+      "quote": "Kue yang enak dimulai dari rasa hormat pada setiap bahan \u2014 mentega yang tidak dikompromikan, telur segar hari ini, dan kesabaran menanti ragi berkembang secara alami.",
+      "chefName": "Chef Clarissa \u201cBo\u201d",
+      "chefRole": "Head Pastry Chef & Founder",
+      "image": "/images/stitch/stitch_img_32.jpg",
+      "sinceBadge": "Berdiri Sejak 2019",
+      "sinceText": "Dari oven rumahan kecil hingga atelier pastry terpilih Jakarta."
+    },
+    "testimonials": [
+      {
+        "name": "Anindya Nurina",
+        "role": "Langganan sejak 2021 \u2022 Kebayoran",
+        "avatar": "AN",
+        "rating": 5,
+        "quote": "Pandan Kaya Chiffon-nya beneran tidak ada tandingannya di Jakarta. Wangi pandan aslinya semerbak dan manisnya sangat pas untuk orang tua saya yang biasanya nggak suka kue manis."
+      },
+      {
+        "name": "Reza & Shinta",
+        "role": "Wedding Custom Hampers Client",
+        "avatar": "RS",
+        "rating": 5,
+        "quote": "Pesan 85 kotak hampers pernikahan untuk kerabat VVIP kami. Packaging teracotta-nya luar biasa mewah dan brownies-nya sampai dalam kondisi sangat fresh. Semua tamu memuji kelezatannya!"
+      },
+      {
+        "name": "Dimas Kusuma",
+        "role": "Corporate Gatherings \u2022 SCBD",
+        "avatar": "DK",
+        "rating": 5,
+        "quote": "Lotus Biscoff Burnt Cheesecake adalah dessert penyelamat di setiap acara kantor. Tekstur tengahnya lumer meleleh, aroma caramelnya pekat. Selalu habis dalam 10 menit!"
+      }
+    ]
+  },
+  "menu": {
+    "title": "Pilihan Menu Terbaik & Freshly Baked",
+    "subtitle": "Setiap item dipanggang segar di pagi hari dengan bahan baku kualitas premium tanpa pengawet.",
+    "categories": [
+      {
+        "id": "all",
+        "name": "Semua Menu"
+      },
+      {
+        "id": "chiffon",
+        "name": "Artisan Chiffon"
+      },
+      {
+        "id": "cheesecake",
+        "name": "Burnt Cheesecake"
+      },
+      {
+        "id": "brownies",
+        "name": "Fudgy Brownies"
+      },
+      {
+        "id": "viennoiserie",
+        "name": "Viennoiserie & Breads"
+      },
+      {
+        "id": "seasonal",
+        "name": "Seasonal & Hampers"
+      }
+    ],
+    "products": [
+      {
+        "id": "pandan-ogura-chiffon",
+        "name": "Pandan Ogura Chiffon",
+        "category": "chiffon",
+        "price": 185000,
+        "image": "/images/stitch/stitch_img_5.jpg",
+        "badge": "Best Seller",
+        "rating": 4.9,
+        "reviewsCount": 342,
+        "tags": [
+          "20cm",
+          "Pandan Murni"
+        ],
+        "description": "Kue chiffon legendaris dengan aroma daun pandan asli dan santan kelapa murni, tekstur ekstra moist bagai kapas awan."
+      },
+      {
+        "id": "earl-grey-chiffon",
+        "name": "Earl Grey Tea Chiffon",
+        "category": "chiffon",
+        "price": 195000,
+        "image": "/images/stitch/stitch_img_2.jpg",
+        "badge": "Chef Pick",
+        "rating": 4.9,
+        "reviewsCount": 178,
+        "tags": [
+          "20cm",
+          "Twinings Earl Grey"
+        ],
+        "description": "Infusi daun teh Earl Grey bergamot harum berpadu dengan kelembutan chiffon sutra."
+      },
+      {
+        "id": "burnt-basque-cheesecake",
+        "name": "Burnt Basque Cheesecake",
+        "category": "cheesecake",
+        "price": 235000,
+        "image": "/images/stitch/stitch_img_12.jpg",
+        "badge": "Signature",
+        "rating": 4.9,
+        "reviewsCount": 288,
+        "tags": [
+          "16cm",
+          "Belgian Cream Cheese"
+        ],
+        "description": "Gosong karamel khas Spanyol di luar dengan inti keju lembut meleleh lumer di mulut."
+      },
+      {
+        "id": "matcha-burnt-cheesecake",
+        "name": "Uji Matcha Basque Cheesecake",
+        "category": "cheesecake",
+        "price": 255000,
+        "image": "/images/stitch/stitch_img_16.jpg",
+        "badge": "New",
+        "rating": 4.8,
+        "reviewsCount": 92,
+        "tags": [
+          "16cm",
+          "Ceremonial Matcha"
+        ],
+        "description": "Gradasi rasa pahit manis matcha Kyoto dengan gurih kaya cream cheese premium."
+      },
+      {
+        "id": "sea-salt-fudgy-brownie",
+        "name": "Sea Salt Fudgy Brownie",
+        "category": "brownies",
+        "price": 120000,
+        "image": "/images/stitch/stitch_img_3.jpg",
+        "badge": "Favorite",
+        "rating": 4.8,
+        "reviewsCount": 195,
+        "tags": [
+          "20x20cm",
+          "Callebaut 70%"
+        ],
+        "description": "Cokelat Callebaut pekat, taburan sea salt Maldon renyah, tekstur padat fudgy legit."
+      },
+      {
+        "id": "almond-frangipane-croissant",
+        "name": "Almond Frangipane Croissant",
+        "category": "viennoiserie",
+        "price": 128000,
+        "image": "/images/stitch/stitch_img_4.jpg",
+        "badge": "Fresh Daily",
+        "rating": 4.9,
+        "reviewsCount": 264,
+        "tags": [
+          "Box 4 Pcs",
+          "Normandy Butter"
+        ],
+        "description": "Croissant berlapis renyah dengan krim frangipane manis gurih dan roasted almond flakes."
+      },
+      {
+        "id": "pain-au-chocolat",
+        "name": "Pain au Chocolat AOP",
+        "category": "viennoiserie",
+        "price": 135000,
+        "image": "/images/stitch/stitch_img_14.jpg",
+        "badge": "Daily Bake",
+        "rating": 4.9,
+        "reviewsCount": 140,
+        "tags": [
+          "Box 4 Pcs",
+          "Valrhona Chocolate"
+        ],
+        "description": "Laminasi pastry mentega Prancis berisi dua batangan cokelat hitam Valrhona lumer."
+      },
+      {
+        "id": "artisan-sourdough-loaf",
+        "name": "Country Sourdough Loaf",
+        "category": "viennoiserie",
+        "price": 65000,
+        "image": "/images/stitch/stitch_img_18.jpg",
+        "badge": "Fermentasi 36 Jam",
+        "rating": 4.9,
+        "reviewsCount": 112,
+        "tags": [
+          "600g",
+          "Wild Yeast Starter"
+        ],
+        "description": "Roti sourdough berkulit tebal renyah dengan rongga udara terbuka dan rasa asam natural seimbang."
+      }
+    ]
+  },
+  "story": {
+    "hero": {
+      "title": "Dari Oven Mungil, Lahir Hangatnya Cerita Rasa",
+      "subtitle": "Kisah dedikasi, resep warisan, dan ketelitian patisserie Prancis berpadu dengan rempah eksotis Indonesia.",
+      "image": "/images/stitch/stitch_img_32.jpg"
+    },
+    "milestones": [
+      {
+        "year": "2019",
+        "title": "Hanya Satu Oven Listrik 30L",
+        "desc": "Bermula dari eksperimen dapur rumah di kawasan Senopati, membagikan chiffon pandan hangat ke tetangga terdekat."
+      },
+      {
+        "year": "2021",
+        "title": "Momen Hangat Ribuan Meja",
+        "desc": "Pesanan melonjak hingga ratusan hampers mingguan; kami berpindah ke studio atelier khusus dengan standar pastry profesional."
+      },
+      {
+        "year": "2024",
+        "title": "Dapur Artisan yang Tetap Personal",
+        "desc": "Kapasitas bertumbuh namun komitmen tetap sama: setiap kue diperlakukan secara personal tanpa proses mesin pabrik."
+      }
+    ],
+    "values": [
+      {
+        "title": "Kejujuran Bahan",
+        "desc": "Tidak ada margarin, pemanis artifisial, atau pengembang instan. Semuanya murni butter AOP, vanilla Madagaskar, dan buah segar."
+      },
+      {
+        "title": "Ketelitian Waktu",
+        "desc": "Fermentasi lambat dan pengocokan suhu ruang yang presisi demi struktur crumb kue yang sempurna."
+      },
+      {
+        "title": "Sentuhan Personal",
+        "desc": "Setiap box diikat tangan dengan pita linen dan kartu ucapan bertuliskan kaligrafi elegan."
+      }
+    ],
+    "gallery": [
+      "/images/stitch/stitch_img_32.jpg",
+      "/images/stitch/stitch_img_29.jpg",
+      "/images/stitch/stitch_img_30.jpg",
+      "/images/stitch/stitch_img_31.jpg"
+    ]
+  },
+  "contact": {
+    "hero": {
+      "title": "Kunjungi & Hubungi Atelier bo.s_kitchen",
+      "subtitle": "Kami dengan senang hati menyambut Anda untuk konsultasi rasa, pemesanan custom cake bertingkat, atau pengambilan pesanan."
+    },
+    "studio": {
+      "name": "bo.s_kitchen Atelier Senopati",
+      "address": "Jl. Senopati No. 42, Kebayoran Baru, Jakarta Selatan 12190",
+      "phone": "+62 812-8900-1234",
+      "hours": "Selasa - Minggu: 07.30 - 19.00 WIB",
+      "gmapsUrl": "https://maps.google.com/?q=Senopati+Jakarta+Selatan"
+    },
+    "quickChannels": [
+      {
+        "title": "WhatsApp Specialist",
+        "desc": "Konsultasi Desain & Custom Cake",
+        "href": "https://wa.me/6281289001234?text=Halo%20bo.s_kitchen,%20saya%20ingin%20konsultasi%20pemesanan%20kue",
+        "icon": "chat",
+        "highlight": true
+      },
+      {
+        "title": "GoFood & GrabFood",
+        "desc": "Pesan kilat siap santap 30-45 mnt",
+        "href": "https://gofood.link",
+        "icon": "moped"
+      },
+      {
+        "title": "@bo.s_kitchen Instagram",
+        "desc": "Katalog harian & sneak peek dapur",
+        "href": "https://instagram.com",
+        "icon": "photo_camera"
+      }
+    ],
+    "customCakeThemes": [
+      {
+        "id": "botanical",
+        "name": "Botanical Floral",
+        "desc": "Edible fresh flowers & rustic gold leaf"
+      },
+      {
+        "id": "brown-butter",
+        "name": "Rustic Brown Butter",
+        "desc": "Naked sponge with caramel drip & fig"
+      },
+      {
+        "id": "vintage-piping",
+        "name": "Vintage Lambeth Piping",
+        "desc": "Classic European royal icing ruffle"
+      },
+      {
+        "id": "custom-character",
+        "name": "Custom Celebration",
+        "desc": "Tema bebas sesuai konsep pesta Anda"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Berapa hari sebelumnya saya harus memesan custom cake?",
+        "a": "Kami menyarankan pemesanan minimal H-3 untuk kue reguler dan H-7 untuk tiered wedding cake atau hampers di atas 50 box."
+      },
+      {
+        "q": "Bagaimana cara menjaga kesegaran kue?",
+        "a": "Chiffon dan cheesecake sebaiknya disimpan di dalam chiller kedap udara (tahan hingga 4 hari). Viennoiserie nikmat dipanaskan di oven 180\u00b0C selama 3 menit."
+      },
+      {
+        "q": "Apakah pengiriman aman menggunakan kurir instan motor?",
+        "a": "Untuk chiffon, brownies, dan viennoiserie aman dengan motor kurir instan terlindung. Untuk kue bertingkat dan cheesecake diameter besar wajib menggunakan kurir mobil ber-AC (Instant Car)."
+      }
+    ]
+  }
+}
