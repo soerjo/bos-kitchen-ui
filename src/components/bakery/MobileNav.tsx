@@ -18,7 +18,7 @@ export function MobileNav() {
   return (
     <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#fbf9f5]/95 backdrop-blur-lg border-t border-[#877369]/15 px-4 py-2 flex items-center justify-around shadow-[0_-2px_10px_rgba(61,35,20,0.05)]">
       {MOBILE_ITEMS.map((item) => {
-        const isActive = item.href === '/' ? pathname === '/' : pathname.startsWith(item.href);
+        const isActive = item.href === '/' ? pathname === '/' : pathname?.startsWith(item.href);
         const Icon = item.icon;
 
         return (

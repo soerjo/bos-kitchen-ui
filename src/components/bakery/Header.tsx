@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ShoppingBag, MessageCircle, User } from 'lucide-react';
+import { ShoppingBag, MessageCircle } from 'lucide-react';
 
 const NAV_LINKS = [
   { name: 'Beranda', href: '/' },
@@ -30,7 +30,7 @@ export function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           {NAV_LINKS.map((link) => {
-            const isActive = link.href === '/' ? pathname === '/' : pathname.startsWith(link.href);
+            const isActive = link.href === '/' ? pathname === '/' : pathname?.startsWith(link.href);
             return (
               <Link
                 key={link.href}
@@ -54,7 +54,7 @@ export function Header() {
             href="https://wa.me/6281289001234?text=Halo%20bo.s_kitchen,%20saya%20ingin%20memesan%20kue%20hari%20ini"
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:inline-flex items-center gap-2 bg-[#914714] hover:bg-[#b05f2b] text-white px-4 py-2 rounded-lg text-xs font-semibold shadow-sm transition-all"
+            className="inline-flex items-center gap-2 bg-[#914714] hover:bg-[#b05f2b] text-white px-4 py-2 rounded-lg text-xs font-semibold shadow-sm transition-all"
           >
             <MessageCircle className="w-4 h-4" />
             <span>WhatsApp Order</span>
@@ -72,15 +72,6 @@ export function Header() {
                 {cartCount}
               </span>
             )}
-          </Link>
-
-          {/* Profile / Admin link */}
-          <Link
-            href="/dashboard"
-            className="w-8 h-8 rounded-full bg-[#ffdbc9] text-[#763300] flex items-center justify-center hover:opacity-85 transition-opacity"
-            aria-label="Akun"
-          >
-            <User className="w-4 h-4" />
           </Link>
         </div>
       </div>
