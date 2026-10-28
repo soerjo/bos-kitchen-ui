@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import Image from 'next/image';
 import { Star, MessageCircle } from 'lucide-react';
 import type { MenuPageData, SiteConfig } from '@/types/cms';
@@ -9,10 +10,27 @@ import { SpotlightCard } from '@/components/react-bits/SpotlightCard';
 interface MenuClientProps {
   initialData: MenuPageData;
   site: SiteConfig;
+  initialCategory?: string;
 }
 
-export function MenuClient({ initialData, site }: MenuClientProps) {
-  const [selectedCategory, setSelectedCategory] = useState('all');
+export function MenuClient({ initialData, site, initialCategory }: MenuClientProps) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  // Derifasi state langsung dari URL/props (mencegah react-hooks/set-state-in-effect)
+  const categoryFromUrl = searchParams.get('category');
+  const selectedCategory = categoryFromUrl || initialCategory || 'all';
+
+  const handleSelectCategory = (categoryId: string) => {
+    const newSearchParams = new URLSearchParams(searchParams.toString());
+    if (categoryId === 'all') {
+      newSearchParams.delete('category');
+    } else {
+      newSearchParams.set('category', categoryId);
+    }
+    const query = newSearchParams.toString();
+    router.replace(query ? `/menu?${query}` : '/menu', { scroll: false });
+  };
 
   const filteredProducts =
     selectedCategory === 'all'
@@ -28,7 +46,7 @@ export function MenuClient({ initialData, site }: MenuClientProps) {
           return (
             <button
               key={cat.id}
-              onClick={() => setSelectedCategory(cat.id)}
+              onClick={() => handleSelectCategory(cat.id)}
               className={`px-4 py-2 rounded-full text-xs font-semibold whitespace-nowrap transition-all shadow-sm ${
                 isActive ? 'bg-[#30312e] text-[#f2f0ed] shadow-md' : 'bg-[#efeeea] text-[#54433a] hover:bg-[#e4e2de]'
               }`}
