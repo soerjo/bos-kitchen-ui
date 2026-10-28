@@ -270,7 +270,6 @@ class ApiClient {
         TokenManager.clearTokens();
         if (typeof window !== 'undefined') {
           window.dispatchEvent(new CustomEvent('auth:unauthorized'));
-          window.location.replace(ROUTES.login);
         }
         throw new ApiError(response.status, await this.parseErrorMessage(response));
       }
@@ -298,7 +297,6 @@ class ApiClient {
           TokenManager.clearTokens();
           if (typeof window !== 'undefined') {
             window.dispatchEvent(new CustomEvent('auth:unauthorized'));
-            window.location.replace(ROUTES.login);
           }
           throw new ApiError(response.status, 'Failed to refresh token');
         }
@@ -307,7 +305,6 @@ class ApiClient {
         TokenManager.clearTokens();
         if (typeof window !== 'undefined') {
           window.dispatchEvent(new CustomEvent('auth:unauthorized'));
-          window.location.replace(ROUTES.login);
         }
         throw error;
       }
