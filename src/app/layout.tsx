@@ -23,6 +23,10 @@ export const metadata: Metadata = {
   title: 'bo.s_kitchen | Artisan Bakery & Homemade Cakes',
   description:
     'Butik pastry artisan modern menyajikan aneka Chiffon lembut sutra, Burnt Cheesecake autentik, Brownies Callebaut, dan Viennoiserie segar dengan 100% French AOP Normandy Butter.',
+  icons: {
+    icon: '/images/logo-128.png',
+    apple: '/images/logo-128.png',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
