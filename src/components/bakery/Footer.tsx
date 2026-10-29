@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, MapPin, Camera, Mail } from 'lucide-react';
 import { getSiteConfig } from '@/services/cms';
 
@@ -12,9 +13,16 @@ export async function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pb-12">
           {/* Column 1: Brand Info */}
           <div className="space-y-4">
-            <div>
-              <span className="font-serif text-2xl font-bold text-[#914714] tracking-tight">{site.brandName}</span>
-              <p className="text-xs uppercase text-[#795745] font-semibold tracking-wider">{site.tagline}</p>
+            <div className="flex items-center gap-3">
+              <div className="relative w-12 h-12 rounded-full overflow-hidden shadow-sm shrink-0 border border-[#914714]/15">
+                <Image src="/images/logo.png" alt="B's Kitchen Logo" fill className="object-cover" sizes="48px" />
+              </div>
+              <div>
+                <span className="font-serif text-2xl font-bold text-[#914714] tracking-tight leading-none block">
+                  {site.brandName}
+                </span>
+                <p className="text-xs uppercase text-[#795745] font-semibold tracking-wider mt-1">{site.tagline}</p>
+              </div>
             </div>
             <p className="text-sm leading-relaxed text-[#54433a]">
               Menyajikan kreasi pastry beraroma mentega pilihan, roti sourdough fermentasi alami, dan hidangan penutup

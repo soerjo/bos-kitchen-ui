@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { ShoppingBag, MessageCircle } from 'lucide-react';
 
@@ -20,11 +21,18 @@ export function Header() {
     <header className="fixed top-0 w-full z-50 bg-[#fbf9f5]/90 backdrop-blur-xl border-b border-[#795745]/10 shadow-[0_1px_8px_rgba(61,35,20,0.04)]">
       <div className="h-20 max-w-[1280px] mx-auto px-4 md:px-6 flex items-center justify-between gap-4">
         {/* Brand Logo */}
-        <Link href="/" className="flex flex-col group">
-          <span className="font-serif text-2xl font-bold text-[#914714] tracking-tight group-hover:text-[#b05f2b] transition-colors">
-            bo.s_kitchen
-          </span>
-          <span className="text-[10px] tracking-widest uppercase font-semibold text-[#795745]">Artisan Bakery</span>
+        <Link href="/" className="flex items-center gap-3 group">
+          <div className="relative w-12 h-12 rounded-full overflow-hidden shadow-sm shrink-0 border border-[#914714]/15 group-hover:scale-105 transition-transform duration-300">
+            <Image src="/images/logo.png" alt="B's Kitchen Logo" fill priority className="object-cover" sizes="48px" />
+          </div>
+          <div className="flex flex-col">
+            <span className="font-serif text-2xl font-bold text-[#914714] tracking-tight group-hover:text-[#b05f2b] transition-colors leading-none">
+              bo.s_kitchen
+            </span>
+            <span className="text-[10px] tracking-widest uppercase font-semibold text-[#795745] mt-1">
+              Artisan Bakery
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
