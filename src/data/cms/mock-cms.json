@@ -13,12 +13,12 @@
     },
     "hours": [
       {
-        "day": "Selasa \u2013 Jumat",
-        "time": "07.30 \u2013 19.00"
+        "day": "Selasa – Jumat",
+        "time": "07.30 – 19.00"
       },
       {
-        "day": "Sabtu \u2013 Minggu",
-        "time": "07.00 \u2013 20.00"
+        "day": "Sabtu – Minggu",
+        "time": "07.00 – 20.00"
       },
       {
         "day": "Senin",
@@ -36,7 +36,7 @@
   },
   "home": {
     "hero": {
-      "badge": "Fresh Daily \u2022 Batch Pagi Hangat",
+      "badge": "Fresh Daily • Batch Pagi Hangat",
       "title": "Cita Rasa Artisan, Dipanggang dengan Kehangatan Hati",
       "description": "Dipanggang dalam kuota terbatas setiap fajar. Kami hanya menggunakan 100% French AOP Normandy Butter, rempah alami nusantara, dan ketelitian patisserie klasik tanpa bahan aditif buatan.",
       "stats": [
@@ -98,100 +98,110 @@
     ],
     "categories": [
       {
-        "name": "Artisan Chiffon",
-        "slug": "chiffon",
-        "count": "4 Kreasi",
-        "image": "/images/stitch/stitch_img_5.jpg"
+        "name": "Hampers & Parcel Natal",
+        "slug": "hampers-natal",
+        "count": "6 Pilihan",
+        "image": "https://minio.soerjoprod.fun/test/products/hampers-natal-nastar-putrisalju-01.jpg"
       },
       {
-        "name": "Burnt Cheesecake",
-        "slug": "cheesecake",
-        "count": "3 Varian",
-        "image": "/images/stitch/stitch_img_12.jpg"
-      },
-      {
-        "name": "Fudgy Brownies",
-        "slug": "brownies",
-        "count": "3 Kreasi",
-        "image": "/images/stitch/stitch_img_3.jpg"
-      },
-      {
-        "name": "Viennoiserie & Breads",
-        "slug": "viennoiserie",
+        "name": "Hampers Idul Fitri / Lebaran",
+        "slug": "hampers-lebaran",
         "count": "5 Pilihan",
-        "image": "/images/stitch/stitch_img_4.jpg"
+        "image": "https://minio.soerjoprod.fun/test/products/hampers-idul-fitri-tas-putih.jpg"
+      },
+      {
+        "name": "Cookies & Kue Kering",
+        "slug": "cookies",
+        "count": "5 Varian",
+        "image": "https://minio.soerjoprod.fun/test/products/gingerbread-cookies-tray.jpg"
+      },
+      {
+        "name": "Bakery, Cake & Pastry",
+        "slug": "bakery-cake",
+        "count": "6 Kreasi",
+        "image": "https://minio.soerjoprod.fun/test/products/croissant-trio-cooling-rack.jpg"
+      },
+      {
+        "name": "Snack Tradisional & Savory",
+        "slug": "snack-savory",
+        "count": "4 Sajian",
+        "image": "https://minio.soerjoprod.fun/test/products/risoles-box-isi-6.jpg"
       }
     ],
     "featuredProducts": [
       {
-        "id": "pandan-kaya-chiffon",
-        "name": "Pandan Kaya Ogura Chiffon",
-        "slug": "pandan-kaya-chiffon",
-        "category": "chiffon",
-        "price": 185000,
-        "image": "/images/stitch/stitch_img_5.jpg",
-        "badge": "Best Seller",
+        "id": "natal-01",
+        "name": "Hampers Tas Putih Pita Merah Emas (Nastar & Putri Salju)",
+        "slug": "hampers-tas-putih-pita-merah-emas",
+        "category": "hampers-natal",
+        "price": 48000,
+        "image": "https://minio.soerjoprod.fun/test/products/hampers-natal-nastar-putrisalju-01.jpg",
+        "badge": "Edisi Natal",
         "rating": 4.9,
-        "reviewsCount": 342,
+        "reviewsCount": 86,
         "tags": [
-          "Diameter 20cm",
-          "100% Jus Suji Murni"
+          "Tas Putih",
+          "Pita Emas",
+          "Nastar & Putri Salju"
         ],
-        "description": "Tekstur selembut sutra dengan perasan daun pandan alami, santan segar perasan pertama, dan selai srikaya buatan atelier."
+        "description": "Paket parcel elegan tas putih eksklusif dengan hiasan pita merah emas berisi toples nastar nanas legit dan putri salju lembut lumer."
       },
       {
-        "id": "lotus-biscoff-cheesecake",
-        "name": "Lotus Biscoff Burnt Cheesecake",
-        "slug": "lotus-biscoff-cheesecake",
-        "category": "cheesecake",
-        "price": 245000,
-        "image": "/images/stitch/stitch_img_12.jpg",
+        "id": "lebaran-01",
+        "name": "Hampers Tas Putih Motif Masjid",
+        "slug": "hampers-tas-putih-motif-masjid",
+        "category": "hampers-lebaran",
+        "price": 50000,
+        "image": "https://minio.soerjoprod.fun/test/products/hampers-idul-fitri-tas-putih.jpg",
         "badge": "Signature",
-        "rating": 4.9,
-        "reviewsCount": 288,
+        "rating": 5.0,
+        "reviewsCount": 164,
         "tags": [
-          "Diameter 16cm",
-          "Cream Cheese Belgia"
+          "Tas Putih",
+          "Motif Masjid",
+          "Lebaran"
         ],
-        "description": "Paduan lembut cream cheese kualitas tinggi berpadu dengan gurih renyah karamel biskuit Lotus Biscoff."
+        "description": "Hampers premium tas putih beraksen siluet masjid bernuansa islami mewah berisi pilihan kue kering favorit silaturahmi."
       },
       {
-        "id": "triple-chocolate-brownie",
-        "name": "Triple Chocolate Fudgy Brownie",
-        "slug": "triple-chocolate-brownie",
-        "category": "brownies",
-        "price": 120000,
-        "image": "/images/stitch/stitch_img_3.jpg",
-        "badge": "Favorite",
+        "id": "cookies-05",
+        "name": "Collage Kue Semprit Chocochip Toples Kaca",
+        "slug": "semprit-chocochip-jar-collage",
+        "category": "cookies",
+        "price": 30000,
+        "image": "https://minio.soerjoprod.fun/test/products/semprit-chocochip-jar-collage.jpg",
+        "badge": "Pilihan Toples",
         "rating": 4.8,
-        "reviewsCount": 195,
+        "reviewsCount": 54,
         "tags": [
-          "Ukuran 20x20cm",
-          "Pure Callebaut 70%"
+          "Toples Kaca",
+          "Semprit",
+          "Kue Kering"
         ],
-        "description": "Shiny crust tipis renyah dengan isi cokelat pekat lumer beraroma hazelnut butter yang manis seimbang."
+        "description": "Koleksi toples kue semprit renyah dengan taburan chocochip lezat yang selalu menjadi favorit segala usia."
       },
       {
-        "id": "almond-frangipane-croissant",
-        "name": "Almond Frangipane Croissant",
-        "slug": "almond-frangipane-croissant",
-        "category": "viennoiserie",
-        "price": 128000,
-        "image": "/images/stitch/stitch_img_4.jpg",
-        "badge": "Fresh Daily",
+        "id": "bakery-06",
+        "name": "Klappertaart Panggang Cup Foil Topping Almond Kismis",
+        "slug": "klappertaart-cup-foil",
+        "category": "bakery-cake",
+        "price": 22000,
+        "image": "https://minio.soerjoprod.fun/test/products/klappertaart-cup-foil.jpg",
+        "badge": "Tradisional Khas",
         "rating": 4.9,
-        "reviewsCount": 264,
+        "reviewsCount": 116,
         "tags": [
-          "Box Isi 4 Pcs",
-          "Double Baked"
+          "Klappertaart",
+          "Kelapa Muda",
+          "Almond Kismis"
         ],
-        "description": "Laminasi mentega Normandie, isi krim almond frangipane madu murni, dan taburan roasted almond renyah."
+        "description": "Kudapan custard kelapa muda panggang lembut beraroma kayu manis dengan taburan kacang almond krispi dan kismis manis."
       }
     ],
     "founderStory": {
       "badge": "Kisah di Balik Dapur Kami",
-      "quote": "Kue yang enak dimulai dari rasa hormat pada setiap bahan \u2014 mentega yang tidak dikompromikan, telur segar hari ini, dan kesabaran menanti ragi berkembang secara alami.",
-      "chefName": "Chef Clarissa \u201cBo\u201d",
+      "quote": "Kue yang enak dimulai dari rasa hormat pada setiap bahan — mentega yang tidak dikompromikan, telur segar hari ini, dan kesabaran menanti ragi berkembang secara alami.",
+      "chefName": "Chef Clarissa “Bo”",
       "chefRole": "Head Pastry Chef & Founder",
       "image": "/images/stitch/stitch_img_32.jpg",
       "sinceBadge": "Berdiri Sejak 2019",
@@ -200,7 +210,7 @@
     "testimonials": [
       {
         "name": "Anindya Nurina",
-        "role": "Langganan sejak 2021 \u2022 Kebayoran",
+        "role": "Langganan sejak 2021 • Kebayoran",
         "avatar": "AN",
         "rating": 5,
         "quote": "Pandan Kaya Chiffon-nya beneran tidak ada tandingannya di Jakarta. Wangi pandan aslinya semerbak dan manisnya sangat pas untuk orang tua saya yang biasanya nggak suka kue manis."
@@ -214,7 +224,7 @@
       },
       {
         "name": "Dimas Kusuma",
-        "role": "Corporate Gatherings \u2022 SCBD",
+        "role": "Corporate Gatherings • SCBD",
         "avatar": "DK",
         "rating": 5,
         "quote": "Lotus Biscoff Burnt Cheesecake adalah dessert penyelamat di setiap acara kantor. Tekstur tengahnya lumer meleleh, aroma caramelnya pekat. Selalu habis dalam 10 menit!"
@@ -230,146 +240,468 @@
         "name": "Semua Menu"
       },
       {
-        "id": "chiffon",
-        "name": "Artisan Chiffon"
+        "id": "hampers-natal",
+        "name": "Hampers & Parcel Natal"
       },
       {
-        "id": "cheesecake",
-        "name": "Burnt Cheesecake"
+        "id": "hampers-lebaran",
+        "name": "Hampers Idul Fitri"
       },
       {
-        "id": "brownies",
-        "name": "Fudgy Brownies"
+        "id": "cookies",
+        "name": "Cookies & Kue Kering"
       },
       {
-        "id": "viennoiserie",
-        "name": "Viennoiserie & Breads"
+        "id": "bakery-cake",
+        "name": "Bakery, Cake & Pastry"
       },
       {
-        "id": "seasonal",
-        "name": "Seasonal & Hampers"
+        "id": "snack-savory",
+        "name": "Snack Tradisional & Savory"
       }
     ],
     "products": [
       {
-        "id": "pandan-ogura-chiffon",
-        "name": "Pandan Ogura Chiffon",
-        "category": "chiffon",
-        "price": 185000,
-        "image": "/images/stitch/stitch_img_5.jpg",
+        "id": "natal-01",
+        "name": "Hampers Tas Putih Pita Merah Emas (Nastar & Putri Salju)",
+        "slug": "hampers-tas-putih-pita-merah-emas",
+        "category": "hampers-natal",
+        "price": 48000,
+        "image": "https://minio.soerjoprod.fun/test/products/hampers-natal-nastar-putrisalju-01.jpg",
+        "badge": "Edisi Natal",
+        "rating": 4.9,
+        "reviewsCount": 86,
+        "tags": [
+          "Tas Putih",
+          "Pita Emas",
+          "Nastar & Putri Salju"
+        ],
+        "description": "Paket parcel elegan tas putih eksklusif dengan hiasan pita merah emas berisi toples nastar nanas legit dan putri salju lembut lumer."
+      },
+      {
+        "id": "natal-02",
+        "name": "Hampers Natal 2 Toples Persegi (Nastar & Putri Salju)",
+        "slug": "hampers-natal-2-toples-persegi",
+        "category": "hampers-natal",
+        "price": 45000,
+        "image": "https://minio.soerjoprod.fun/test/products/hampers-natal-nastar-salju-box-02.jpg",
         "badge": "Best Seller",
         "rating": 4.9,
-        "reviewsCount": 342,
+        "reviewsCount": 114,
         "tags": [
-          "20cm",
-          "Pandan Murni"
+          "Hardbox",
+          "2 Toples",
+          "Nastar"
         ],
-        "description": "Kue chiffon legendaris dengan aroma daun pandan asli dan santan kelapa murni, tekstur ekstra moist bagai kapas awan."
+        "description": "Kotak hampers persegi mewah dengan kombinasi toples nastar cengkeh butter dan putri salju keju gula dingin premium."
       },
       {
-        "id": "earl-grey-chiffon",
-        "name": "Earl Grey Tea Chiffon",
-        "category": "chiffon",
-        "price": 195000,
-        "image": "/images/stitch/stitch_img_2.jpg",
-        "badge": "Chef Pick",
-        "rating": 4.9,
-        "reviewsCount": 178,
-        "tags": [
-          "20cm",
-          "Twinings Earl Grey"
-        ],
-        "description": "Infusi daun teh Earl Grey bergamot harum berpadu dengan kelembutan chiffon sutra."
-      },
-      {
-        "id": "burnt-basque-cheesecake",
-        "name": "Burnt Basque Cheesecake",
-        "category": "cheesecake",
-        "price": 235000,
-        "image": "/images/stitch/stitch_img_12.jpg",
-        "badge": "Signature",
-        "rating": 4.9,
-        "reviewsCount": 288,
-        "tags": [
-          "16cm",
-          "Belgian Cream Cheese"
-        ],
-        "description": "Gosong karamel khas Spanyol di luar dengan inti keju lembut meleleh lumer di mulut."
-      },
-      {
-        "id": "matcha-burnt-cheesecake",
-        "name": "Uji Matcha Basque Cheesecake",
-        "category": "cheesecake",
-        "price": 255000,
-        "image": "/images/stitch/stitch_img_16.jpg",
-        "badge": "New",
+        "id": "natal-03",
+        "name": "Hampers Tas Merah Natal & 2 Toples",
+        "slug": "hampers-tas-merah-natal-2-toples",
+        "category": "hampers-natal",
+        "price": 42000,
+        "image": "https://minio.soerjoprod.fun/test/products/hampers-natal-tas-merah.jpg",
+        "badge": "Favorit",
         "rating": 4.8,
+        "reviewsCount": 73,
+        "tags": [
+          "Tas Merah",
+          "2 Toples",
+          "Festive"
+        ],
+        "description": "Tas tenteng nuansa merah festive ceria berisi dua pilihan kue kering natal butter gurih renyah."
+      },
+      {
+        "id": "natal-04",
+        "name": "Kue Semprit Hampers Natal & Box Ho-Ho-Ho",
+        "slug": "kue-semprit-hampers-natal-box-hohoho",
+        "category": "hampers-natal",
+        "price": 38000,
+        "image": "https://minio.soerjoprod.fun/test/products/kue-semprit-hampers-natal-box.jpg",
+        "badge": "Koleksi Natal",
+        "rating": 4.9,
+        "reviewsCount": 59,
+        "tags": [
+          "Semprit",
+          "Box Ho-Ho-Ho",
+          "Chocochip"
+        ],
+        "description": "Kemasan kotak tematik Ho-Ho-Ho berisi kue semprit bunga klasik renyah wangi butter bertabur chocochip."
+      },
+      {
+        "id": "natal-05",
+        "name": "Gift Bag Merah Ho-Ho-Ho & Tag Natal",
+        "slug": "gift-bag-merah-ho-ho-ho-tag-natal",
+        "category": "hampers-natal",
+        "price": 35000,
+        "image": "https://minio.soerjoprod.fun/test/products/gift-bag-natal-merah-hohoho.jpg",
+        "badge": "Praktis",
+        "rating": 4.8,
+        "reviewsCount": 47,
+        "tags": [
+          "Gift Bag",
+          "Greeting Tag",
+          "Kue Kering"
+        ],
+        "description": "Gift bag tenteng cantik bernuansa Sinterklas lengkap dengan kartu ucapan gantung personal, cocok untuk bingkisan kolega."
+      },
+      {
+        "id": "natal-06",
+        "name": "Aneka Toples Kue Kering Natal Meja Renda",
+        "slug": "aneka-toples-kue-kering-natal-meja-renda",
+        "category": "hampers-natal",
+        "price": 40000,
+        "image": "https://minio.soerjoprod.fun/test/products/aneka-kue-kering-natal.jpg",
+        "badge": "Display",
+        "rating": 4.9,
         "reviewsCount": 92,
         "tags": [
-          "16cm",
-          "Ceremonial Matcha"
+          "Aneka Rasa",
+          "Toples Cantik",
+          "Meja Tamu"
         ],
-        "description": "Gradasi rasa pahit manis matcha Kyoto dengan gurih kaya cream cheese premium."
+        "description": "Sajian kue kering toples pilihan dekoratif untuk pemanis meja perayaan pesta natal keluarga."
       },
       {
-        "id": "sea-salt-fudgy-brownie",
-        "name": "Sea Salt Fudgy Brownie",
-        "category": "brownies",
-        "price": 120000,
-        "image": "/images/stitch/stitch_img_3.jpg",
-        "badge": "Favorite",
+        "id": "lebaran-01",
+        "name": "Hampers Tas Putih Motif Masjid",
+        "slug": "hampers-tas-putih-motif-masjid",
+        "category": "hampers-lebaran",
+        "price": 50000,
+        "image": "https://minio.soerjoprod.fun/test/products/hampers-idul-fitri-tas-putih.jpg",
+        "badge": "Signature",
+        "rating": 5.0,
+        "reviewsCount": 164,
+        "tags": [
+          "Tas Putih",
+          "Motif Masjid",
+          "Lebaran"
+        ],
+        "description": "Hampers premium tas putih beraksen siluet masjid bernuansa islami mewah berisi pilihan kue kering favorit silaturahmi."
+      },
+      {
+        "id": "lebaran-02",
+        "name": "Hampers Tas Hijau & Deretan Toples Kue Kering",
+        "slug": "hampers-tas-hijau-deretan-toples",
+        "category": "hampers-lebaran",
+        "price": 48000,
+        "image": "https://minio.soerjoprod.fun/test/products/hampers-lebaran-toples-kue.jpg",
+        "badge": "Best Seller",
+        "rating": 4.9,
+        "reviewsCount": 128,
+        "tags": [
+          "Tas Hijau",
+          "Kue Kering",
+          "Idul Fitri"
+        ],
+        "description": "Tas hijau khas Idul Fitri dengan jajaran toples nastar dan kue kering gurih bermentega mentah berkualitas."
+      },
+      {
+        "id": "lebaran-03",
+        "name": "Hampers Tas Biru & Toples Nastar (01)",
+        "slug": "hampers-tas-biru-toples-nastar-01",
+        "category": "hampers-lebaran",
+        "price": 45000,
+        "image": "https://minio.soerjoprod.fun/test/products/hampers-lebaran-nastar-tas-biru-01.jpg",
+        "badge": "Favorit",
+        "rating": 4.9,
+        "reviewsCount": 95,
+        "tags": [
+          "Tas Biru",
+          "Toples Nastar",
+          "Manis Gurih"
+        ],
+        "description": "Hampers tas biru royal anggun dengan toples nastar keju selai nanas segar resep tradisional khas dapur B's Kitchen."
+      },
+      {
+        "id": "lebaran-04",
+        "name": "Hampers Tas Biru & Nastar Cup Hitam (02)",
+        "slug": "hampers-tas-biru-nastar-cup-hitam-02",
+        "category": "hampers-lebaran",
+        "price": 46000,
+        "image": "https://minio.soerjoprod.fun/test/products/hampers-lebaran-nastar-tas-biru-02.jpg",
+        "badge": "Eksklusif",
         "rating": 4.8,
-        "reviewsCount": 195,
+        "reviewsCount": 78,
         "tags": [
-          "20x20cm",
-          "Callebaut 70%"
+          "Cup Hitam",
+          "Nastar Mewah",
+          "Tas Biru"
         ],
-        "description": "Cokelat Callebaut pekat, taburan sea salt Maldon renyah, tekstur padat fudgy legit."
+        "description": "Penyajian nastar dalam cup hitam elegan berpadu dengan tas biru eksklusif untuk hantaran kerabat tercinta."
       },
       {
-        "id": "almond-frangipane-croissant",
-        "name": "Almond Frangipane Croissant",
-        "category": "viennoiserie",
-        "price": 128000,
-        "image": "/images/stitch/stitch_img_4.jpg",
-        "badge": "Fresh Daily",
+        "id": "lebaran-05",
+        "name": "Brownies Crispy & Hampers Idul Fitri Tas Biru",
+        "slug": "brownies-crispy-hampers-idul-fitri-tas-biru",
+        "category": "hampers-lebaran",
+        "price": 35000,
+        "image": "https://minio.soerjoprod.fun/test/products/brownies-crispy-hampers-biru.jpg",
+        "badge": "Camilan Renyah",
         "rating": 4.9,
-        "reviewsCount": 264,
+        "reviewsCount": 89,
         "tags": [
-          "Box 4 Pcs",
-          "Normandy Butter"
+          "Brownies Crispy",
+          "Tas Biru",
+          "Cokelat"
         ],
-        "description": "Croissant berlapis renyah dengan krim frangipane manis gurih dan roasted almond flakes."
+        "description": "Keripik brownies tipis super renyah dengan cokelat pekat berpadu hampers tas Idul Fitri praktis."
       },
       {
-        "id": "pain-au-chocolat",
-        "name": "Pain au Chocolat AOP",
-        "category": "viennoiserie",
-        "price": 135000,
-        "image": "/images/stitch/stitch_img_14.jpg",
-        "badge": "Daily Bake",
+        "id": "cookies-01",
+        "name": "Gingerbread Cookies Aneka Bentuk di Baking Tray",
+        "slug": "gingerbread-cookies-tray",
+        "category": "cookies",
+        "price": 28000,
+        "image": "https://minio.soerjoprod.fun/test/products/gingerbread-cookies-tray.jpg",
+        "badge": "Rempah Hangat",
         "rating": 4.9,
-        "reviewsCount": 140,
+        "reviewsCount": 105,
         "tags": [
-          "Box 4 Pcs",
-          "Valrhona Chocolate"
+          "Gingerbread",
+          "Aneka Bentuk",
+          "Kayu Manis"
         ],
-        "description": "Laminasi pastry mentega Prancis berisi dua batangan cokelat hitam Valrhona lumer."
+        "description": "Biskuit jahe rempah wangi kayu manis dengan aneka bentuk ikonik yang renyah dan menghangatkan suasana santai."
       },
       {
-        "id": "artisan-sourdough-loaf",
-        "name": "Country Sourdough Loaf",
-        "category": "viennoiserie",
-        "price": 65000,
-        "image": "/images/stitch/stitch_img_18.jpg",
-        "badge": "Fermentasi 36 Jam",
+        "id": "cookies-02",
+        "name": "Kue Semprit Bunga Chocochip Toples Kaca (Natal)",
+        "slug": "kue-semprit-natal-jar",
+        "category": "cookies",
+        "price": 32000,
+        "image": "https://minio.soerjoprod.fun/test/products/kue-semprit-natal-jar.jpg",
+        "badge": "Toples Kaca",
         "rating": 4.9,
-        "reviewsCount": 112,
+        "reviewsCount": 132,
         "tags": [
-          "600g",
-          "Wild Yeast Starter"
+          "Toples Kaca",
+          "Semprit Bunga",
+          "Chocochip"
         ],
-        "description": "Roti sourdough berkulit tebal renyah dengan rongga udara terbuka dan rasa asam natural seimbang."
+        "description": "Kue semprit mawar butter lumer di mulut bertabur chocochip dalam kemasan toples kaca kedap udara berpita."
+      },
+      {
+        "id": "cookies-03",
+        "name": "Kue Semprit Bunga Toples Kaca Outdoor",
+        "slug": "kue-semprit-toples-kaca-outdoor",
+        "category": "cookies",
+        "price": 30000,
+        "image": "https://minio.soerjoprod.fun/test/products/kue-semprit-toples-kaca-outdoor.jpg",
+        "badge": "Autentik",
+        "rating": 4.8,
+        "reviewsCount": 67,
+        "tags": [
+          "Semprit Klasik",
+          "Toples Kaca",
+          "Butter"
+        ],
+        "description": "Kue semprit tradisional rasa mentega asli yang renyah gurih cocok dinikmati bersama secangkir teh sore."
+      },
+      {
+        "id": "cookies-04",
+        "name": "Duo Toples Kue Semprit Bunga Chocochip",
+        "slug": "kue-semprit-duo-toples",
+        "category": "cookies",
+        "price": 38000,
+        "image": "https://minio.soerjoprod.fun/test/products/kue-semprit-duo-toples.jpg",
+        "badge": "Paket Hemat",
+        "rating": 4.9,
+        "reviewsCount": 98,
+        "tags": [
+          "Duo Toples",
+          "Semprit",
+          "Chocochip"
+        ],
+        "description": "Paket hemat dua toples kue semprit mawar wangi mentega kaya chocochip untuk stok camilan keluarga."
+      },
+      {
+        "id": "cookies-05",
+        "name": "Collage Kue Semprit Chocochip Toples Kaca",
+        "slug": "semprit-chocochip-jar-collage",
+        "category": "cookies",
+        "price": 30000,
+        "image": "https://minio.soerjoprod.fun/test/products/semprit-chocochip-jar-collage.jpg",
+        "badge": "Pilihan Toples",
+        "rating": 4.8,
+        "reviewsCount": 54,
+        "tags": [
+          "Toples Kaca",
+          "Semprit",
+          "Kue Kering"
+        ],
+        "description": "Koleksi toples kue semprit renyah dengan taburan chocochip lezat yang selalu menjadi favorit segala usia."
+      },
+      {
+        "id": "bakery-01",
+        "name": "Donat Gula Halus Tabur di Talenan Kayu",
+        "slug": "donat-gula-halus",
+        "category": "bakery-cake",
+        "price": 12000,
+        "image": "https://minio.soerjoprod.fun/test/products/donat-gula-halus.jpg",
+        "badge": "Fresh Baked",
+        "rating": 4.9,
+        "reviewsCount": 210,
+        "tags": [
+          "Donat Empuk",
+          "Gula Halus",
+          "Camilan"
+        ],
+        "description": "Donat kentang klasik ekstra empuk dengan taburan gula salju halus dingin yang manis pas."
+      },
+      {
+        "id": "bakery-02",
+        "name": "Donat Goreng Kampung Polos (10 pcs)",
+        "slug": "donat-goreng-kampung-polos",
+        "category": "bakery-cake",
+        "price": 25000,
+        "image": "https://minio.soerjoprod.fun/test/products/donat-kampung-polos.jpg",
+        "badge": "Paket 10 Pcs",
+        "rating": 4.8,
+        "reviewsCount": 145,
+        "tags": [
+          "Donat Kampung",
+          "10 Pcs",
+          "Goreng Segar"
+        ],
+        "description": "Satu kotak isi 10 donat goreng kampung polos bertekstur empuk kenyal gurih alami tanpa pengawet."
+      },
+      {
+        "id": "bakery-03",
+        "name": "Mini Bundt Cakes Golden Brown",
+        "slug": "mini-bundt-cake",
+        "category": "bakery-cake",
+        "price": 18000,
+        "image": "https://minio.soerjoprod.fun/test/products/mini-bundt-cake.jpg",
+        "badge": "Artisan Cake",
+        "rating": 4.9,
+        "reviewsCount": 88,
+        "tags": [
+          "Mini Bundt",
+          "Butter Cake",
+          "Golden Brown"
+        ],
+        "description": "Bolu bundt mini berwarna keemasan dengan tekstur lembut wangi vanilla butter dan manis legit merata."
+      },
+      {
+        "id": "bakery-04",
+        "name": "Fudgy Brownies Square Topping Pastel Mosaic",
+        "slug": "fudgy-brownies-mosaic-mousse",
+        "category": "bakery-cake",
+        "price": 32000,
+        "image": "https://minio.soerjoprod.fun/test/products/fudgy-brownies-mosaic-mousse.jpg",
+        "badge": "Choco Lovers",
+        "rating": 5.0,
+        "reviewsCount": 172,
+        "tags": [
+          "Fudgy",
+          "Brownies",
+          "Cokelat Pekat"
+        ],
+        "description": "Brownies panggang fudgy nyoklat bertabur topping mozaik pastel manis yang lembut dan lumer di lidah."
+      },
+      {
+        "id": "bakery-05",
+        "name": "Trio Croissant (Almond, Butter, Chocolate)",
+        "slug": "croissant-trio-cooling-rack",
+        "category": "bakery-cake",
+        "price": 28000,
+        "image": "https://minio.soerjoprod.fun/test/products/croissant-trio-cooling-rack.jpg",
+        "badge": "French Butter",
+        "rating": 4.9,
+        "reviewsCount": 194,
+        "tags": [
+          "Croissant",
+          "Flaky Pastry",
+          "Almond & Butter"
+        ],
+        "description": "Trio croissant artisan dengan lapisan flaky renyah bermentega Prancis wangi: varian butter murni, almond krispi, dan cokelat."
+      },
+      {
+        "id": "bakery-06",
+        "name": "Klappertaart Panggang Cup Foil Topping Almond Kismis",
+        "slug": "klappertaart-cup-foil",
+        "category": "bakery-cake",
+        "price": 22000,
+        "image": "https://minio.soerjoprod.fun/test/products/klappertaart-cup-foil.jpg",
+        "badge": "Tradisional Khas",
+        "rating": 4.9,
+        "reviewsCount": 116,
+        "tags": [
+          "Klappertaart",
+          "Kelapa Muda",
+          "Almond Kismis"
+        ],
+        "description": "Kudapan custard kelapa muda panggang lembut beraroma kayu manis dengan taburan kacang almond krispi dan kismis manis."
+      },
+      {
+        "id": "savory-01",
+        "name": "Risoles Goreng Box Isi 6 dengan Cabe Rawit",
+        "slug": "risoles-box-isi-6",
+        "category": "snack-savory",
+        "price": 24000,
+        "image": "https://minio.soerjoprod.fun/test/products/risoles-box-isi-6.jpg",
+        "badge": "Box Isi 6",
+        "rating": 4.9,
+        "reviewsCount": 230,
+        "tags": [
+          "Risoles",
+          "Isi 6",
+          "Cabe Rawit"
+        ],
+        "description": "Satu boks isi 6 risoles goreng kulit renyah isi ragout gurih berlimpah, lengkap dengan cabe rawit segar."
+      },
+      {
+        "id": "savory-02",
+        "name": "Platter Risoles Mayo Telur dengan Garnis Sayuran",
+        "slug": "risoles-mayo-platter",
+        "category": "snack-savory",
+        "price": 26000,
+        "image": "https://minio.soerjoprod.fun/test/products/risoles-mayo-platter.jpg",
+        "badge": "Favorit Gurih",
+        "rating": 4.9,
+        "reviewsCount": 182,
+        "tags": [
+          "Mayo Telur",
+          "Smoked Beef",
+          "Platter"
+        ],
+        "description": "Risoles mayo lumer berisi potongan smoked beef dan telur rebus berbalut mayones creamy gurih mantap."
+      },
+      {
+        "id": "savory-03",
+        "name": "Cake Potong Topping Abon & Irisan Cabe",
+        "slug": "chiffon-abon-savory-cake",
+        "category": "snack-savory",
+        "price": 18000,
+        "image": "https://minio.soerjoprod.fun/test/products/chiffon-abon-savory-cake.jpg",
+        "badge": "Savory Cake",
+        "rating": 4.8,
+        "reviewsCount": 94,
+        "tags": [
+          "Cake Abon",
+          "Gurih Manis",
+          "Snack Box"
+        ],
+        "description": "Bolu chiffon gurih lembut dengan olesan mayo istimewa bertabur abon sapi berlimpah dan irisan cabe segar."
+      },
+      {
+        "id": "savory-04",
+        "name": "Mochi Tiga Warna Isi Kacang Tanah",
+        "slug": "mochi-kacang-tiga-warna",
+        "category": "snack-savory",
+        "price": 15000,
+        "image": "https://minio.soerjoprod.fun/test/products/mochi-kacang-tiga-warna.jpg",
+        "badge": "Kenyal Lembut",
+        "rating": 4.9,
+        "reviewsCount": 165,
+        "tags": [
+          "Mochi Kenyal",
+          "3 Warna",
+          "Kacang Gurih"
+        ],
+        "description": "Kue mochi kenyal lembut 3 warna ceria dengan isian pasta kacang tanah sangrai wangi dan manis gurih nikmat."
       }
     ]
   },
@@ -479,7 +811,7 @@
       },
       {
         "q": "Bagaimana cara menjaga kesegaran kue?",
-        "a": "Chiffon dan cheesecake sebaiknya disimpan di dalam chiller kedap udara (tahan hingga 4 hari). Viennoiserie nikmat dipanaskan di oven 180\u00b0C selama 3 menit."
+        "a": "Chiffon dan cheesecake sebaiknya disimpan di dalam chiller kedap udara (tahan hingga 4 hari). Viennoiserie nikmat dipanaskan di oven 180°C selama 3 menit."
       },
       {
         "q": "Apakah pengiriman aman menggunakan kurir instan motor?",
