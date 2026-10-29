@@ -51,7 +51,7 @@ export function Header() {
         <div className="flex items-center gap-3">
           {/* Quick WhatsApp Order */}
           <a
-            href="https://wa.me/6281289001234?text=Halo%20bo.s_kitchen,%20saya%20ingin%20memesan%20kue%20hari%20ini"
+            href="https://wa.me/6289623866341?text=Halo%20bo.s_kitchen,%20saya%20ingin%20memesan%20kue%20hari%20ini"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#914714] hover:bg-[#b05f2b] text-white px-4 py-2 rounded-lg text-xs font-semibold shadow-sm transition-all"
