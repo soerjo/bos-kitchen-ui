@@ -4,8 +4,8 @@
     "tagline": "Artisan Bakery & Pastry Boutique",
     "foundedYear": "2019",
     "contact": {
-      "whatsapp": "6281289001234",
-      "whatsappDisplay": "+62 812-8900-1234",
+      "whatsapp": "6289623866341",
+      "whatsappDisplay": "+62 896-2386-6341",
       "instagram": "@bo.s_kitchen",
       "address": "Jl. Senopati No. 42, Kebayoran Baru, Jakarta Selatan, 12190",
       "gmapsUrl": "https://maps.google.com/?q=Senopati+Jakarta+Selatan",
@@ -65,7 +65,7 @@
       },
       "ctaSecondary": {
         "text": "Pesan Cepat via WhatsApp",
-        "href": "https://wa.me/6281289001234?text=Halo%20bo.s_kitchen,%20saya%20ingin%20memesan%20kue%20hari%20ini"
+        "href": "https://wa.me/6289623866341?text=Halo%20bo.s_kitchen,%20saya%20ingin%20memesan%20kue%20hari%20ini"
       },
       "heroImage": "/images/stitch/stitch_img_5.jpg",
       "floatingHighlight": {
@@ -425,7 +425,7 @@
     "studio": {
       "name": "bo.s_kitchen Atelier Senopati",
       "address": "Jl. Senopati No. 42, Kebayoran Baru, Jakarta Selatan 12190",
-      "phone": "+62 812-8900-1234",
+      "phone": "+62 896-2386-6341",
       "hours": "Selasa - Minggu: 07.30 - 19.00 WIB",
       "gmapsUrl": "https://maps.google.com/?q=Senopati+Jakarta+Selatan"
     },
@@ -433,7 +433,7 @@
       {
         "title": "WhatsApp Specialist",
         "desc": "Konsultasi Desain & Custom Cake",
-        "href": "https://wa.me/6281289001234?text=Halo%20bo.s_kitchen,%20saya%20ingin%20konsultasi%20pemesanan%20kue",
+        "href": "https://wa.me/6289623866341?text=Halo%20bo.s_kitchen,%20saya%20ingin%20konsultasi%20pemesanan%20kue",
         "icon": "chat",
         "highlight": true
       },
