@@ -10,6 +10,15 @@ const nextConfig: NextConfig = {
   experimental: {
     reactDebugChannel: false,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'minio.soerjoprod.fun',
+        pathname: '/**',
+      },
+    ],
+  },
   // Tailscale access untuk dev container (memungkinkan cross-origin dev resource /_next/hmr dari host Tailscale)
   allowedDevOrigins: ['100.64.62.59', 'localhost'],
   async rewrites() {
